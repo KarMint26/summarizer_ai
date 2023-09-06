@@ -1,14 +1,21 @@
-import { logo } from "../assets";
-
 const Hero = () => {
   return (
     <header className='w-full flex justify-center items-center flex-col'>
       <nav className='flex justify-between items-center w-full mb-10 pt-3'>
-        <img src={logo} alt='sumz-logo' className='w-24 object-contain' />
+        <div className="flex justify-center items-center gap-3">
+          <img
+            src='/icon-summarizer.svg'
+            alt='sumz-logo'
+            className='w-16 object-contain'
+          />
+          <h1 className='font-semibold font-satoshi text-2xl'>Sumz AI</h1>
+        </div>
 
         <button
           type='button'
-          onClick={() => window.open("https://github.com/KarMint26/summarizer_ai")}
+          onClick={() =>
+            window.open("https://github.com/KarMint26/summarizer_ai")
+          }
           className='black_btn'
         >
           GitHub

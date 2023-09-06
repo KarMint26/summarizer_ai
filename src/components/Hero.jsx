@@ -8,7 +8,7 @@ const Hero = () => {
             alt='sumz-logo'
             className='w-16 object-contain'
           />
-          <h1 className='font-semibold font-satoshi text-2xl'>Sumz AI</h1>
+          <h1 className='font-bold font-satoshi text-2xl'>Sumz AI</h1>
         </div>
 
         <button
